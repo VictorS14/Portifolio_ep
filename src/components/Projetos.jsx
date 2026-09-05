@@ -1,37 +1,36 @@
+import manage_landing_page from '../assets/manage_landing_page.jpg'
+
 const Projetos = () => {
   const projetos = [
     {
       id: 1,
-      titulo: 'Projeto 1 - [Editar Título]',
+      titulo: 'Projeto 1 - iGlic',
       descricao:
-        '[Editar Descrição] Breve descrição do projeto explicando seu objetivo, funcionalidades principais e os desafios encontrados durante o desenvolvimento. Mantenha de 2 a 3 frases concisas.',
-      imagem:
-        'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Modern%20web%20application%20dashboard%20screenshot%20with%20clean%20UI%20dark%20theme%20purple%20accents&image_size=landscape_16_9',
-      deploy: 'https://seu-projeto.vercel.app',
-      github: 'https://github.com/seuusuario/seu-projeto-1',
-      techs: ['React', 'TypeScript', 'TailwindCSS', 'Vite'],
+        'iGlic é uma aplicação web de gerenciamento de glicose para ajudar diábeticos a controlar suas glicemias.',
+      // imagem:
+      deploy: 'https://i-glic.vercel.app/',
+      github: 'https://github.com/VictorS14/iGlic.git',
+      techs: ['React', 'JavaScript', 'TailwindCSS', 'Vite', 'TanStack Query', 'Express', 'Axios', 'APIs REST', 'Node.js', 'PostgreSQL'],
     },
     {
       id: 2,
-      titulo: 'Projeto 2 - [Editar Título]',
+      titulo: 'Projeto 2 - manage-landing-page',
       descricao:
-        '[Editar Descrição] Breve descrição do projeto explicando seu objetivo, funcionalidades principais e os desafios encontrados durante o desenvolvimento. Mantenha de 2 a 3 frases concisas.',
-      imagem:
-        'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Modern%20ecommerce%20website%20screenshot%20with%20product%20grid%20clean%20design%20dark%20purple%20theme&image_size=landscape_16_9',
-      deploy: 'https://seu-projeto-2.vercel.app',
-      github: 'https://github.com/seuusuario/seu-projeto-2',
-      techs: ['React', 'TanStack Query', 'Axios', 'APIs REST'],
+        'Esse é um landing page básico, criado com o intuito de praticar os conhecimentos em React e TailwindCSS e responsividade',
+      imagem: manage_landing_page,
+      deploy: 'https://manage-landing-page-7zmo.vercel.app/',
+      github: 'https://github.com/VictorS14/manage-landing-page.git',
+      techs: ['React', 'JavaScript', 'TailwindCSS'],
     },
     {
       id: 3,
-      titulo: 'Projeto 3 - [Editar Título]',
+      titulo: 'Projeto 3 - Simulador de Investimentos',
       descricao:
-        '[Editar Descrição] Breve descrição do projeto explicando seu objetivo, funcionalidades principais e os desafios encontrados durante o desenvolvimento. Mantenha de 2 a 3 frases concisas.',
-      imagem:
-        'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Modern%20task%20management%20app%20screenshot%20kanban%20board%20style%20dark%20purple%20UI%20design&image_size=landscape_16_9',
-      deploy: 'https://seu-projeto-3.vercel.app',
-      github: 'https://github.com/seuusuario/seu-projeto-3',
-      techs: ['React', 'Node.js', 'Express', 'PostgreSQL'],
+        'Uma aplicação para simulação de investimentos em ativos Brasileiro como Tesouro Direto, Tesouro Selic, LCI/LCA, CDB',
+      // imagem:
+      deploy: 'https://simulador-de-investimentos-jo1n-cs18x3od8.vercel.app/',
+      github: 'https://github.com/VictorS14/simulador_de_investimentos.git',
+      techs: ['React', 'JavaScript', 'TailwindCSS'],
     },
   ];
 
