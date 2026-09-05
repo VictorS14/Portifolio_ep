@@ -6,7 +6,7 @@ const Projetos = () => {
       id: 1,
       titulo: 'Projeto 1 - iGlic',
       descricao:
-        'iGlic é uma aplicação web de gerenciamento de glicose para ajudar diábeticos a controlar suas glicemias.',
+        'iGlic é uma aplicação web de gerenciamento de glicose para ajudar diabéticos a controlar suas glicemias.',
       // imagem:
       deploy: 'https://i-glic.vercel.app/',
       github: 'https://github.com/VictorS14/iGlic.git',
